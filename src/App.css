@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f2f2f2;
+  font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+}
+
+input,
+button {
+  outline: none;
+}
+
+.content {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+#header {
+  height: 60px;
+  background: #4a90e2;
+  width: 100%;
+}
+
+#header .content {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+}
+
+#header strong {
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+#header .info {
+  display: flex;
+  align-items: center;
+}
+
+#header .info img {
+  height: 38px;
+  width: 38px;
+  margin-left: 5px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+
+.postList {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.postList > ul {
+  margin: 10px;
+}
+
+.postList > ul > li {
+  padding: 20px;
+  width: 700px;
+  background: #fff;
+  list-style: none;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  margin-top: 10px;
+  height: auto;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.postList > ul > li > strong {
+  display: flex;
+  align-items: center;
+}
+.postList > ul > li > strong > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.postList > ul > li > strong > div > span {
+  font-weight: normal;
+  font-size: 15px;
+  color: #ccc;
+}
+
+.postList ul li img {
+  height: 38px;
+  width: 38px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+  margin-right: 10px;
+}
+
+.postList > ul > li > p {
+  border-bottom: 2px solid #f2f2f2;
+  padding: 20px 0;
+  margin-bottom: 10px;
+  color: #222;
+}
+
+.comments {
+  margin: 0;
+  width: 100%;
+  height: auto;
+  padding: 0;
+}
+
+.comments ul {
+  padding: 0;
+}
+
+.comments ul li {
+  list-style: none;
+  margin-top: 10px;
+  display: flex;
+}
+
+.comments ul li p {
+  width: 600px;
+  background: #f2f2f2;
+  padding: 10px;
+  border-radius: 16px;
+}
+
+.comments ul li p strong {
+  margin-right: 5px;
+}
